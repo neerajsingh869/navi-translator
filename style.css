@@ -12,6 +12,7 @@
     font-family: 'Source Code Pro', monospace;
     box-sizing: border-box;
     margin: 0;
+    overflow: hidden;
 }
 
 /* background image */
@@ -62,7 +63,7 @@ main {
 main button {
     margin: 15px 0px;
     height: 45px;
-    width: 645px;
+    width: 630px;
     background-color: var(--primary-color);
     border: 0px solid white;
     color: black;
