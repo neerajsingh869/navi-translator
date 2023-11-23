@@ -31,3 +31,21 @@ header {
     text-align: center;
     padding-top: 25px;
 }
+
+/* footer */
+footer {
+    padding: 30px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+}
+
+.footer-container {
+    width: 50%;
+    margin: auto;
+}
+
+.footer-container h2 {
+    margin-bottom: 10px;
+}
