@@ -49,3 +49,10 @@ footer {
 .footer-container h2 {
     margin-bottom: 10px;
 }
+
+/* main */
+main {
+    width: 595px;
+    margin: auto;
+    margin-top: 40px;
+}
