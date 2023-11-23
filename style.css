@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@300;400&family=Indie+Flower&family=Pacifico&family=Zeyada&display=swap');
+
+/* global variables */
+
+:root {
+    --primary-color: #17a2b8;
+}
+
+/* universal styles */
+
+* {
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Pacifico', cursive;
+    box-sizing: border-box;
+    margin: 0;
+}
