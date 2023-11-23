@@ -54,5 +54,17 @@ footer {
 main {
     width: 595px;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 30px;
+}
+
+/* translate button */
+main button {
+    margin: 15px 0px;
+    height: 45px;
+    width: 580px;
+    background-color: var(--primary-color);
+    border: 0px solid white;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
 }
