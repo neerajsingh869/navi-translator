@@ -12,7 +12,6 @@
     font-family: 'Source Code Pro', monospace;
     box-sizing: border-box;
     margin: 0;
-    color: var(--primary-color);
 }
 
 /* background image */
@@ -30,6 +29,7 @@ header {
     width: 100%;
     text-align: center;
     padding-top: 25px;
+    color: var(--primary-color);
 }
 
 /* footer */
@@ -39,6 +39,7 @@ footer {
     position: fixed;
     bottom: 0px;
     text-align: center;
+    color: var(--primary-color);
 }
 
 .footer-container {
@@ -52,7 +53,7 @@ footer {
 
 /* main */
 main {
-    width: 595px;
+    width: 648px;
     margin: auto;
     margin-top: 30px;
 }
@@ -61,10 +62,40 @@ main {
 main button {
     margin: 15px 0px;
     height: 45px;
-    width: 580px;
+    width: 645px;
     background-color: var(--primary-color);
     border: 0px solid white;
     color: black;
     font-size: 16px;
     cursor: pointer;
+}
+
+/* input textarea */
+#input-text-area {
+    font-size: 16px;
+}
+
+#input-text-area::placeholder {
+    font-size: 16px;
+}
+
+#input-text-area:focus {
+    outline: none !important;
+    border: 1px solid var(--primary-color);
+    box-shadow: 0 0 4px var(--primary-color);
+}
+
+/* output (translated) textarea */
+#translated-text-area {
+    font-size: 16px;
+}
+
+#translated-text-area::placeholder {
+    font-size: 20px;
+}
+
+#translated-text-area:focus {
+    outline: none !important;
+    border: 1px solid var(--primary-color);
+    box-shadow: 0 0 4px var(--primary-color);
 }
