@@ -1,0 +1,1 @@
+#### Checkout [navi translator](https://navi-translator869.netlify.app/) app to translate English to Navi language
